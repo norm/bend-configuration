@@ -1,2 +1,11 @@
 homebrew_installed_packages:
   - watch
+
+pip_installed_packages:
+  - requests
+
+  # shut up SSL warnings
+  - pyopenssl
+  - ndg-httpsclient
+  - pyasn1
+
