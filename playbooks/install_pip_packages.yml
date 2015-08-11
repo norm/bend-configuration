@@ -1,0 +1,7 @@
+- hosts: workstation
+  sudo: true
+
+  tasks:
+    - name: Install python packages
+      pip: name={{item}} state=present
+      with_items: pip_installed_packages

@@ -1,3 +1,7 @@
 homebrew_installed_packages:
   - ag
   - nvi
+
+pip_installed_packages:
+  - virtualenv
+  - virtualenvwrapper
