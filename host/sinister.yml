@@ -1,0 +1,4 @@
+repos:
+  - url: https://github.com/spencergibb/ansible-osx
+    playbooks:
+      - adium.yml

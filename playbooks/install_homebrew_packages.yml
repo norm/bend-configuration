@@ -1,0 +1,7 @@
+- hosts: workstation
+  sudo: false
+
+  tasks:
+    - name: Install homebrew apps
+      homebrew: name={{item}} state=present update_homebrew=yes
+      with_items: homebrew_installed_packages

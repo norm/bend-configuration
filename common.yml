@@ -1,0 +1,9 @@
+repos:
+  - url: https://github.com/spencergibb/ansible-osx
+    playbooks:
+      - dropbox.yml
+      - homebrew.yml
+      - sublime3.yml
+
+playbooks:
+  - install_homebrew_packages.yml
