@@ -8,3 +8,4 @@ repos:
 playbooks:
   - install_homebrew_packages.yml
   - install_pip_packages.yml
+  - install_gem_packages.yml
