@@ -1,6 +1,7 @@
 homebrew_installed_packages:
   - ag
   - nvi
+  - bash-completion
 
 pip_installed_packages:
   - virtualenv
