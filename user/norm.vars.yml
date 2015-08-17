@@ -1,4 +1,5 @@
 homebrew_installed_packages:
+  - fortune
   - watch
 
 pip_installed_packages:
