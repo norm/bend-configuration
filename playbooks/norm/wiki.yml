@@ -1,0 +1,14 @@
+- hosts: workstation
+  sudo: false
+
+  tasks:
+    - name: Checkout the wiki
+      git:
+        repo: git@github.com:norm/wiki.git
+        dest: ~/wiki
+
+    - name: Install nginx site
+      sudo: true
+      copy:
+        src: files/sites/wiki
+        dest: /usr/local/etc/nginx/sites-enabled/wiki

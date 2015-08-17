@@ -1,0 +1,4 @@
+playbooks:
+  # TODO make wiki install gollum directly (role?)
+  - software/gollum.yml
+  - norm/wiki.yml
